@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Lobster:100,200,300,400,500,600,700');
 
+section {
+    margin: 0;
+    padding: 0;
+}
 /*-----------------------------------------------------colours*/
 li {
-    background-color: lightblue;
+    background-color: #0582CA;
     margin: 0;
 }
 
 /*-----------------------------------------------------Special paddings/margins/text*/
 h1,h2,h3,h4,h5 {
     margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .uppercase {
@@ -20,6 +29,42 @@ h1,h2,h3,h4,h5 {
     font-weight: 300;
     color: red;
 }
+
+.content-table {
+    text-align: center;
+    min-width: 33.33%;
+    width: 100%;
+    min-height: 700px;
+}
+
+div#map {
+    min-height: 700px;
+    min-width: "66.66%";
+    background-size: 100%;
+    margin: 0;
+}
+
+.map-title {
+    text-align: center;
+    background-color: #03045e;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.teams-title {
+    text-align: center;
+    background-color: #FF006E;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.container-fluid {
+    padding: 0;
+} 
+
+
 /*-----------------------------------------------------Heading*/
 
 header {
@@ -30,8 +75,8 @@ header {
     background: url("../images/premier.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
+    background-size: 100% 100%;
+    min-height: 500px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -70,7 +115,7 @@ header {
     padding: 15px;
     display: block;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .menuitem span {
@@ -88,23 +133,15 @@ header {
     background-color: blue;
 }
 
+.hvr-bounce-to-top:before {
+    background-color: blue;
+}
+
 /*-----------------------------------------------------footer*/
 
 footer {
     margin: 0;
-    background-color:blue;
+    background-color: #0582CA;
     color: red;
     min-height: 120px;
-}
-
-
-/*-----------------------------------------------------test*/
-
-
-.icon {
-   padding-top: 22px;
-    display: block;
-    color: black;
-    font-size: 26px;
-    font-family: 'Bangers', cursive;
 }
